@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter to Santa</title>
+</head>
+<body>
+    <h1>Письмо Санте</h1>
+    <p>Дорогой друг, не стесняйся и расскажи Санте о том, что ты хочешь получить на Рождество.</p>
+    <form target="_blank" action="./greetings.html" id="contact-form">
+        <div>
+            <label for="login_">
+                <input id="login_" type="text" placeholder="Логин" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="password_">
+                <input id="password_" type="password" placeholder="Пароль" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="name_">
+                <input id="name_" type="text" placeholder="Имя" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            Пол: <br> <br>
+            <input type="radio" name="sex" id="sex1" value="boy">
+            <label for="sex1">Мальчик</label>
+
+            <input type="radio" name="sex" id="sex2" value="girl">
+            <label for="sex2">Девочка</label>
+        </div>
+        <br>
+        <div>
+            <input type="date" name="birth-date" id="birth-date">
+            <label for="birth-date">Дата рождения</label>
+        </div>
+        <br>
+        <div>
+            <select name="city" id="city_">
+                <option value="">Берлин</option>
+                <option value="">Бранденбург</option>
+                <option value="">Баден-Вюртемберг</option>
+                <option value="">Бавария</option>
+                <option value="">Бремен</option>
+                <option value="">Гамбург</option>
+                <option value="">Гессен</option>
+                <option value="">Мекленбург-Передняя Померания</option>
+                <option value="">Нижняя Саксония</option>
+                <option value="">Северный Рейн-Вестфалия</option>
+                <option value="">Рейнланд-Пфальц</option>
+                <option value="">Саар</option>
+                <option value="">Саксония</option>
+                <option value="">Саксония-Анхальт</option>
+                <option value="">Шлезвиг-Гольштейн</option>
+                <option value="">Тюрингия</option>
+            </select>
+        </div>
+        <br>
+        <p>Выбери цвет своей новой игрушки:</p>
+        <br>
+        <div>
+            <input type="color" name="color1" id="color1"> Шапочка
+            <br>
+            <input type="color" name="color2" id="color2"> Костюм
+        </div>
+        <p>Ты был хорошим ребенком?</p>
+        <div>
+            <input type="radio" name="child" id="yes">
+            <label for="yes">Да</label>
+
+            <input type="radio" name="child" id="no">
+            <label for="no">Нет</label>
+        </div>
+        <br>
+        <button type="submit">Отправить письмо Санте</button>
+    </form>
+    
+</body>
+</html>
